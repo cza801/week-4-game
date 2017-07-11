@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week 4 Game</title>
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="jumbotron">
+		<h1 class="text-center">
+			Week 4 Crystal Game
+		</h1>
+	</div>
+
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-lg-6 panel panel-default">
+				<div class="panel-body">
+					<p>Instructions for the game go right here!</p>
+				</div>	
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-3 panel panel-default">
+				<div class="panel-body">
+					<h1 id="targetscore" class="targ-score text-right">
+						
+					</h1>
+				</div>				
+			</div>
+
+			<div class="col-lg-1 col-lg-offset-1 panel panel-default">
+				<div class="panel-body">
+					<p>
+						Wins: <span id="wins"></span>    
+					</p>
+					<br>
+					<p>
+						Losses: <span id="losses"></span>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-1">
+				<a id="circcry" class="thumbnail">
+     				<img src="assets/images/bcrystal.jpg" alt="...">
+    			</a>
+			</div>
+			<div class="col-lg-1">
+				<a id="pyramidcry" class="thumbnail">
+     				<img src="assets/images/crystal.jpg" alt="...">
+    			</a>
+			</div>
+			<div class="col-lg-1">
+				<a id="purpcry" class="thumbnail">
+     				<img src="assets/images/images.jpg" alt="...">
+    			</a>
+			</div>
+			<div class="col-lg-1">
+				 <a id="whitcry" class="thumbnail" >
+     				<img src="assets/images/wcrystal.jpg" alt="...">
+    			</a>   
+			</div>	
+		</div>
+
+		<div class="row">
+			<div class="col-lg-6">	
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Your total score is:
+					</div>
+					<div class="panel-body ">
+						<h1 id="currentScore"></h1>
+					</div>				
+				</div>			
+		</div>
+
+	</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js" ></script>
+	
+</body>
+</html>
