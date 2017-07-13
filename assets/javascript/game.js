@@ -29,7 +29,7 @@ sgame ()
 
 document.getElementById('wins').innerHTML = wins;
 document.getElementById('losses').innerHTML = losses;
-document.getElementById('currentScore').innerHTML = score;
+document.getElementById('currentScore').innerHTML = 0;
 
 //Adding the value of the crystal to the score
 $('#circcry').on('click', function (){
@@ -65,6 +65,7 @@ $('#pyramidcry').on('click', function (){
 
      $("#wins").html(wins);
      $("#losses").html(losses);
+     
 }
 
 	);
